@@ -61,7 +61,7 @@ function MoverSnake() {
   snake.shift();
 }
 
-function ChegarComeu() {
+function ChecarComeu() {
   let cabecaSnake = snake[snake.length - 1];
 
   if (cabecaSnake.x == food.x && cabecaSnake.y == food.y) {
